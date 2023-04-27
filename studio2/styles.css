@@ -2,45 +2,27 @@
     display: flex;
 } */
 
-.box {
-    display: block;
-    overflow: hidden;
-    position: relative;
-}
-  
-  /**
-   * The aspect-ratio hack is applied to an empty element because it allows
-   * the component to respect `max-height`. Default aspect ratio is 1:1.
-   */
-  
-  .box-ratio {
-    display: block;
-    padding-bottom: 100%;
-    width: 100%;
-  }
-  
-  /**
-   * Fit the content to the aspect ratio
-   */
-  
-  .box-content {
+
+.box-content {
     bottom: 0;
     height: 25px;
-    left: 0;
+    left: 500px;
     position: absolute;
-    top: 0;
+    top: 50px;
     width: 25px;
     background-color: #FFBE0B;
     color: #FFBE0B;
-  }
+}
 
-.square {
+/* .square {
     height: 25px;
     width: 25px;
     
-    /* border-radius: 50%; */
+    border-radius: 50%;
     display: inline-block;
-}
+} */
+
+
 
 h1{
     display: flex;

@@ -9,15 +9,18 @@
         document.querySelector('#showdata').innerHTML = outputHTML(values);
     }
     
-    function outputHTML(data){
+
+    function outputHTML(values){
         let html = '';
-        data.forEach( function(eachEntry){
-            html += "<tr>";
-            html += `<td>${eachEntry.name}</td><td>${eachEntry.date}</td><td>${eachEntry.reason}</td>`;
-            html += '</tr>';
-        } );
+        values.forEach( function (eachEntry){
+            html += `<h3>${eachEntry.name}</h3>`;
+            html += `<p>Date Watched: ${eachEntry.date}</p>`;
+            html += `<p>Reason: ${eachEntry.reason}</p>`;
+        })
+        
+        
         return html;
-    } 
+    }
     
     getData();
 
