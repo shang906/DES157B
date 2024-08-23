@@ -66,6 +66,7 @@ body.switch {
     background-color:#EEEDED;
     /* background-color: white; */
     color: #333;
+    transition: all 2s;
 }
 
 #container {
@@ -76,7 +77,7 @@ body.switch {
     min-width: 900px;
     margin: 1em auto;
     padding-top: 2em;
-    
+    transition: all 2s;
 }
 
 header {
@@ -94,6 +95,7 @@ header {
     background-image: url(images/darkmap.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    transition: all 2s;
     /* background-position: 50% -1%; */
 }
 
@@ -186,14 +188,15 @@ footer{
         background-repeat: no-repeat;
         background-size: 75%;
         background-position: 50% -1%;
+        transition: all 2s;
     }
 }
 
 @media only screen and (min-width: 1000px) {
     header h1{
         font-size: 70px;
-        margin-top: -50pt;
-        margin-left: 200pt;
+        margin-top: 0pt;
+        margin-left: 230pt;
         display: flex;
         justify-content:right;
     }
@@ -217,7 +220,7 @@ footer{
     #banner {
         display: flex;
         width: 1100px;
-        height: 450px;
+        height: 400px;
         margin: auto;
         overflow: hidden;
         place-items: center;
@@ -225,6 +228,7 @@ footer{
         background-repeat: no-repeat;
         background-size: 75%;
         background-position: 50% -1%;
+        transition: all 2s;
     }
     
 }
